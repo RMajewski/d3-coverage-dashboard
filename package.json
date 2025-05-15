@@ -2,19 +2,20 @@
   "name": "d3-coverage-dashboard",
   "version": "1.0.0",
   "description": "A D3.js-based interactive dashboard that visualizes test coverage data from V8 (Node.js) reports. It provides insights into feature files, test scenarios, executed and missing steps, and highlights source files that are only invoked versus actively tested. Built with TypeScript, Vite, and semantic-release for automated versioning.",
+  "author": "René Majewski <rene.majewski@gmx.de>",
   "license": "MIT",
   "packageManager": "pnpm@9.10.0",
   "engines": {
     "node": "^20.18.0"
   },
   "keywords": [],
-  "main": "index.js",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
- }
+  }
 }
