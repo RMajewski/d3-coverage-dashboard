@@ -16,6 +16,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "add:license-headers": "node scripts/insert-license-header.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "pnpm eslint .",
